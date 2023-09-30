@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: #ffffff;
+
+}
+
+.navigation {
+    font-size: 20px;
+    /* display: flex; */
+    /* text-align: right; */
+    /* list-style: none; */
+    padding: 7.8px 13px;
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+    bottom: 0;
+    /* margin: 24px; */
+}
+
+
+/* button {
+    list-style: none;
+    padding: 20px 23px;
+} */
+
+section {
+    height: 344px;
+    justify-content: center;
+    margin: 3px 23px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 2px solid red; */
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+/* header {
+   
+} */
+
+header::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: url(https://assets.nflxext.com/ffe/siteui/vlv3/9db4a880-3034-4e98-bdea-5d983e86bf52/b5953637-091d-4e02-9754-2bfadc8a8f7c/IN-en-20230925-popsignuptwoweeks-perspective_alpha_website_large.jpg) no-repeat center;
+    /* this will make our text come up of the image */
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+}
+
+h2 {
+    font-size: 34px;
+}
+
+.container {
+    height: 34px;
+    width: 533px;
+    /* justify-content: center; */
+    /* margin: 30px 20px; */
+    display: flex;
+    /* align-self: center; */
+  padding-left: 400px;
+}
+
+#button {
+    background-color: red;
+    width: 500px;
+    height: 39px;
+    border-radius: 8px;
+    border: red;
+}
+
+#language {
+    background-color: transparent;
+    color: white;
+    padding: 10px 13px;
+    border-radius: 4px;
+}
+
+.p1 {
+    margin: 34px;
+    text-align: right;
+
+}
+
+.netflix {
+
+    /* z-index: 1; */
+    background-color: transparent;
+    width: 50%;
+}
+
+img {
+    height: 77px;
+    margin: 30px;
+    display: block;
+
+}
+
+#div1 {
+    width: 50%;
+    margin-left: 700px;
+    margin-top: -100px;
+}
+
+#email {
+    border-radius: 8px;
+    width: 1300px;
+    height: 35px;
+    margin-right: 0.7px;
+    background-color: transparent;
+    color: white;
+
+}
